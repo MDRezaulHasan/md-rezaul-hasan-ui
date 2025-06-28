@@ -1,6 +1,7 @@
 import React from 'react'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
+import HeroSection from './components/sections/HeroSection'
 
 
 const App = () => {
@@ -15,4 +16,3 @@ const App = () => {
 }
 
 export default App
-App
