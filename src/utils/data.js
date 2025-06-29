@@ -113,6 +113,14 @@ export const TECH_STACK = [
     "Azure DevOps",
 ] 
 
+export const STATS = [
+    {number: '5+', label: 'Projects Completed'},
+    {number: '3+', label: 'Years of Experience'},
+    {number: '30+', label: 'Technologies Used'},
+    {number: '100%', label: 'Client Satisfaction'},
+];
+
+
 export const PROJECTS = [
     {
         id:1,
