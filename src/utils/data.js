@@ -264,7 +264,7 @@ export const JOURNEY_STEPS = [
     }
 ]
 
-export const PASSION=[
+export const PASSIONS=[
     {
         icon:Heart,
         title:'Passionate about coding',
