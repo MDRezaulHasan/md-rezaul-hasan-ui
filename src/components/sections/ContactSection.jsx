@@ -6,7 +6,6 @@ import {Send} from 'lucide-react'
 import TextInput from '../input/TextInput'
 import SuccessModal from '../SuccessModal'
 import {useState,useRef} from 'react'
-import { form } from 'framer-motion/client';
 
 const ContactSection = () => {
 
