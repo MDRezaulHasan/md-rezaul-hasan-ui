@@ -34,20 +34,22 @@ export const SKILLS_CATEGORIES = [
         description:'Building the visual and interactive elements of a website or application that users interact with directly.',
         skills: [
             { name: 'React', level: 95, color:'bg-blue-500' },
+            {name: 'Angular', level: 95, color: 'bg-green-500'},
             { name: 'TypeScript', level: 90, color:'bg-blue-600' },
-            { name: 'Next.js', level: 90, color:'bg-gray-800' },
-            { name: 'Tailwind CSS', level: 85, color:'bg-cyan-500' },
-           ],
+            {name: 'Next.js', level: 75, color: 'bg-gray-800'},
+            {name: 'Tailwind CSS', level: 35, color: 'bg-cyan-500'},
+        ],
     },
     {
         title:'Backend',
         icon:Server,
         description:'Developing the server-side logic, database interactions, and application architecture that power the frontend.',
         skills: [
+            {name: 'Asp.Net', level: 95, color: 'bg-green-500'},
+            {name: 'Rest Api', level: 98, color: 'bg-orange-500'},
             { name: 'Node.js', level: 90, color:'bg-yellow-500' },
-            { name: 'Nest.js', level: 85, color:'bg-grey-700' },
-            { name: 'Asp.Net', level: 95, color:'bg-green-500' },
-            { name: 'Rest Api', level: 98, color:'bg-orange-500' },
+            {name: 'Python', level: 55, color: 'bg-cyan-500'},
+            {name: 'Nest.js', level: 35, color: 'bg-blue-700'},
            ],
     },
     {
@@ -55,10 +57,10 @@ export const SKILLS_CATEGORIES = [
         icon:Database,
         description:'Designing and managing databases to store, retrieve, and manipulate data efficiently.',
         skills: [
-            { name: 'MongoDB', level: 90, color:'bg-green-500' },
             { name: 'PostgreSQL', level: 85, color:'bg-purple-500' },
+            {name: 'MSSql', level: 90, color: 'bg-blue-700'},
             { name: 'MySQL', level: 80, color:'bg-blue-700' },
-            { name: 'MSSql', level: 80, color:'bg-blue-700' },
+            {name: 'MongoDB', level: 60, color: 'bg-green-500'},
            ],
     },
     {
@@ -68,7 +70,10 @@ export const SKILLS_CATEGORIES = [
         skills: [
             { name: 'Git', level: 95, color:'bg-red-500' },
             { name: 'Docker', level: 85, color:'bg-blue-500' },
-            { name: 'CI/CD', level: 80, color:'bg-yellow-600' },
+            {name: 'GitHubAction', level: 80, color: 'bg-yellow-600'},
+            {name: 'Azure Devops', level: 80, color: 'bg-cyan-600'},
+            {name: 'Visual studio', level: 80, color: 'bg-cyan-600'},
+            {name: 'Vs Code | Webstrom', level: 80, color: 'bg-cyan-600'},
            ],
     },
     {
@@ -77,8 +82,9 @@ export const SKILLS_CATEGORIES = [
         description:'Managing the deployment, scaling, and monitoring of applications in production environments.',
         skills: [
             { name: 'Docker', level: 85, color:'bg-blue-500' },
-            { name: 'Kubernetes', level: 80, color:'bg-blue-600' },
-            { name: 'AWS', level: 75, color:'bg-blue-700' },
+            {name: 'Kubernetes', level: 90, color: 'bg-blue-600'},
+            {name: 'GCP', level: 75, color: 'bg-blue-700'},
+            {name: 'Docker Swarm | Mirantis', level: 75, color: 'bg-cyan-700'},
            ],
     },
     {

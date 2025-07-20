@@ -62,7 +62,11 @@ const SkillsSection = () => {
                 variants={itemVariants}
                 className={`text-lg ${isDarkMode ? 'text-gray-400' : 'text-gray-600'} max-w-2xl mx-auto font-light`}
                 >
-                    I have a diverse skill set that includes web development, UI/UX design, and data analysis. I am proficient in various programming languages, frameworks, and tools that enable me to create efficient and user-friendly applications. My expertise extends to both front-end and back-end development, allowing me to build complete web solutions. I am also experienced in collaborating with cross-functional teams to deliver high-quality projects on time.
+                    I have a diverse skill set that includes software development, and data analysis. I am proficient in
+                    various programming languages, frameworks, and tools that enable me to create efficient and
+                    user-friendly applications. My expertise extends to both front-end and back-end development,
+                    allowing me to build complete web solutions and devops infrastructure. I am also experienced in
+                    collaborating with cross-functional teams to deliver high-quality projects on time.
                 </motion.p>
 
             </motion.div>
